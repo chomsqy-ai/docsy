@@ -1,13 +1,13 @@
 
 ---
 title: Welcome to Docsy
-linkTitle: Documentation
+linkTitle: Documentation/API
 menu: {main: {weight: 20}}
 ---
 
-Welcome to the Docsy theme user guide! This guide shows you how to get started creating technical documentation sites using Docsy, including site customization and how to use Docsy's blocks and templates.
+Welcome to the chomsQy AI documentation. When completed this seciton will show you how to access the chomsQy AI API prorgammatically. 
 
-## What is Docsy?
+## What is the chomsQy API?
 
 Docsy is a theme for the [Hugo](https://gohugo.io/) static site generator that's specifically designed for technical
 documentation sets and has a lot of best practices built in. Use Docsy to get a working and reliable documentation

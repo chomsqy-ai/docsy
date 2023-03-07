@@ -1,21 +1,21 @@
 ---
-title: About Docsy
+title: About chomsQy AI
 linkTitle: About
 menu: {main: {weight: 10}}
 layout: docs
 ---
 
-{{% blocks/cover title="About Docsy" height="auto" %}}
+{{% blocks/cover title="About chomsQy AI" height="auto" %}}
+Strictly speaking chomsQy AI doesn't work with simulated quantum "neural networks," rather with simulated "parameterized quantum circuits." Whereas classical computers use bits as the basic unit of information, quantum computers use the "qubit," a quantum state based method of encoding information. Though there are problems that will always be clasically simulable the hybrid approach is worth exploring. 
 
-Docsy is a pre-configured Hugo theme that provides the core features and behaviors needed to create a technical documentation site. Use Docsy to set up your documentation website, including an optional Blog section, and then spend your time focusing on authoring technical content. Depending on how you choose to configure Docsy and whether you use a hosting service that supports continuous builds, you can even just add your Markdown or HTML content file into a folder on your source repository, and then sit back while it automatically gets added to your site - complete with updated menus.
-
-Read on to find out more, or visit our [documentation](/docs/) to get started!
+Read on to find out more, or visit the [documentation](/docs/) page to get started!
 {{% /blocks/cover %}}
 
 {{% blocks/section type="section" color="primary" %}}
-## So what’s a technical documentation site?
+## So what’s quantum-classical NLP?
+The current state of the art in quantum computing is the Noisy Intermediate Scale Quantum (NISQ) computer, and as those improve, there will be an opportunity to incorporate quantum data, faster processing, increased dimensionality, and other interesting things.
 
-A technical documentation site is a website that your users can visit to find the documentation for your technical project.  Your documentation set contains all the information you think your users might need to engage with your project, from overviews that help them understand what the project is for, to instructions for specific tasks. Depending on the size of the project, a documentation set can be a page or two or an entire “book” with different types of information.
+ technical documentation site is a website that your users can visit to find the documentation for your technical project.  Your documentation set contains all the information you think your users might need to engage with your project, from overviews that help them understand what the project is for, to instructions for specific tasks. Depending on the size of the project, a documentation set can be a page or two or an entire “book” with different types of information.
 
 **Most users don’t want to have to spend much time looking at docs - they want to try your great project!** So how do you make sure your technical documentation set gives users what they need to easily understand your project and get things done? We think a good technical documentation set should be:
 
