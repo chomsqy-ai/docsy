@@ -30,22 +30,18 @@ PostCSS (autoprefixing of CSS browser-prefixes) is not enabled when running in s
 
 ## Site colors
 
-To easily customize your site's colors, add SCSS variable overrides to
-`assets/scss/_variables_project.scss`. A simple example changing the primary and
-secondary color to two shades of purple:
+To customize your site's colors, add SCSS variable overrides to
+`assets/scss/_variables_project.scss`. For example, you can set the primary and
+secondary site colors as follows:
 
 ```scss
 $primary: #390040;
 $secondary: #A23B72;
 ```
 
-The theme has features such as rounded corners and gradient backgrounds enabled by default. These can also be toggled in your project variables file:
-
-```scss
-$enable-gradients: true;
-$enable-rounded: true;
-$enable-shadows: true;
-```
+The theme has features such as gradient backgrounds (`$enable-gradients`) and
+shadows (`$enable-shadows`) enabled by default. These can also be toggled in
+your project variables file by setting the variables to `false`.
 
 ## Fonts
 
