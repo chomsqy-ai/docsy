@@ -19,3 +19,4 @@ resources/
 # VS Code
 /.vscode/**
 !/.vscode/cspell.json
+node_modules/bootstrap/node_modules/hugo-bin/vendor/hugo
