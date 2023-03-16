@@ -1,4 +1,4 @@
-node_modules/
+node_modules/hugo-extended/vendor/hugo 
 package-lock.json
 
 # Hugo
