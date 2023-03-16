@@ -13,4 +13,7 @@
     disable = false
   [[module.imports:]]
     - path: "gitlab.com/writeonlyhugo/hugo-module-bootstrap"
-
+  [module]
+    [[module.mounts]]
+      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      target = "assets/js/bootstrap.bundle.min.js"
