@@ -1,7 +1,7 @@
 [module]
   proxy = "direct"
   # uncomment line below for temporary local development of module
-  # replacements = "github.com/google/docsy -> ../../docsy"
+  replacements = "github.com/google/docsy -> ../../docsy"
   [module.hugoVersion]
     extended = true
     min = "0.73.0"
