@@ -9,11 +9,6 @@
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 @import "styles.scss";
 
-$display1-size: null !default;
-@if $display1-size {
-  @error "Docsy requires Bootstrap v5, but v4 was detected. Did you forget to update Docsy dependencies?";
-}
-
 @import "../vendor/Font-Awesome/scss/fontawesome.scss";
 @import "../vendor/Font-Awesome/scss/solid.scss";
 @import "../vendor/Font-Awesome/scss/brands.scss";
