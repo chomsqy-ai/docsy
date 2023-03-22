@@ -1,5 +1,5 @@
 baseURL: /
-title: Docsy Example
+title: chomsQy AI
 enableRobotsTXT: true
 theme: [docsy]
 enableGitInfo: true
@@ -33,8 +33,8 @@ services:
 
 languages:
   en:
-    title: Docsy
-    description: Docsy does docs
+    title: chomsQy AI
+    description: Quantum-assisted NLP
     languageName: English
     weight: 1
 
@@ -46,14 +46,14 @@ markup:
     style: tango
 
 params:
-  copyright: The Docsy Authors
-  privacy_policy: https://policies.google.com/privacy
+  copyright: chomsQy OÜ. The Docsy Authors.
+  privacy_policy: https://welcomecenterestonia.ee/16621313-chomsQy-O%C3%9C
   version_menu: Releases
   archived_version: false
   version: 0.6.0
-  url_latest_version: https://example.com
-  github_repo: https://github.com/google/docsy
-  github_project_repo: https://github.com/google/docsy
+  url_latest_version: https://chomsqy.ai
+  github_repo: https://github.com/chomsqy-ai
+  github_project_repo: https://github.com/chomsqy-ai
   github_subdir: userguide
   time_format_blog: Monday, January 02, 2006
   time_format_default: January 2, 2006
@@ -71,38 +71,38 @@ params:
     breadcrumb_disable: false
     sidebar_search_disable: false
     feedback:
-      enable: true
+      enable: false
       'yes': >-
         Glad to hear it! Please <a
-        href="https://github.com/google/docsy/issues/new">tell us how we can
+        href="https://github.com/chomsqy-ai/docsy/issues/new">tell us how we can
         improve</a>.
       'no': >-
         Sorry to hear that. Please <a
-        href="https://github.com/google/docsy/issues/new">tell us how we can
+        href="https://github.com/chomsqy-ai/docsy/issues/new">tell us how we can
         improve</a>.
     readingtime:
       enable: false
   links:
     user:
       - name: GitHub Discussions
-        url: https://github.com/google/docsy/discussions
+        url: https://github.com/chomsqy-ai/docsy/discussions
         icon: fa-brands fa-github
         desc: Discussion and help from your fellow users
       - name: User mailing list
-        url: https://groups.google.com/forum/#!forum/docsy-users
+        url: contact@chomsqy.ai
         icon: fa-solid fa-envelope
-        desc: Sign up for Docsy announcements
+        desc: Sign up for chomsQy-AI announcements
       - name: Twitter
-        url: https://twitter.com/docsydocs
+        url: https://twitter.com/chomsqy-ai
         icon: fa-brands fa-twitter
         desc: Follow us on Twitter to get the latest news!
       - name: Stack Overflow
-        url: https://stackoverflow.com/questions/tagged/docsy
+        url: https://stackoverflow.com/
         icon: fa-brands fa-stack-overflow
         desc: Practical questions and curated answers
     developer:
       - name: GitHub
-        url: https://github.com/google/docsy
+        url: https://github.com/chomsqy-ai
         icon: fa-brands fa-github
         desc: Development takes place here!
 
@@ -111,11 +111,6 @@ params:
     theme: default
     svg_image_url: https://www.plantuml.com/plantuml/svg/
     svg: false
-  katex:
-    enable: true
-    html_dom_element: document.body
-    mhchem:
-      enable: true
   print:
     disable_toc: false
   markmap:

@@ -1,0 +1,75 @@
+---
+title: "Multi-language Support"
+linkTitle: "Multi-language Support"
+weight: 7
+description: >
+  Support for automatic speech recognition of multiple languages
+---
+
+As more annotated language data becomes available, chomsQy AI hopes to serve as a hub for the training of models to support lower resource languages and creating quality quantum based models for their transcription. If you'd like to provide annotated datasets or request support for a language, please use the contact info. 
+
+{{< tabpane persistLang=false >}}
+{{< tab header="Configuration file:" disabled=true />}}
+{{< tab header="config.toml" lang="toml" >}}
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+...
+[languages]
+[languages.en]
+title = "Docsy"
+description = "Docsy does docs"
+languageName ="English"
+# Weight used for sorting.
+weight = 1
+[languages.no]
+title = "Docsy"
+description = "Docsy er operativsystem for skyen"
+languageName ="Norsk"
+contentDir = "content/no"
+time_format_default = "02.01.2006"
+time_format_blog = "02.01.2006"
+{{< /tab >}}
+{{< tab header="config.yaml" lang="yaml" >}}
+contentDir: content/en
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+…
+languages:
+  en:
+    title: Docsy
+    description: Docsy does docs
+    languageName: English
+    weight: 1 # used for sorting
+  'no':
+    title: Docsy
+    description: Docsy er operativsystem for skyen
+    languageName: Norsk
+    contentDir: content/no
+    time_format_default: 02.01.2006
+    time_format_blog: 02.01.2006
+{{< /tab >}}
+{{< tab header="config.json" lang="json" >}}
+{
+  "contentDir": "content/en",
+  "defaultContentLanguage": "en",
+  "defaultContentLanguageInSubdir": false,
+  "languages": {
+    "en": {
+      "title": "Docsy",
+      "description": "Docsy does docs",
+      "languageName": "English",
+      "weight": 1
+    },
+    "no": {
+      "title": "Docsy",
+      "description": "Docsy er operativsystem for skyen",
+      "languageName": "Norsk",
+      "contentDir": "content/no",
+      "time_format_default": "02.01.2006",
+      "time_format_blog": "02.01.2006"
+    }
+  }
+}
+{{< /tab >}}
+{{< /tabpane >}}
