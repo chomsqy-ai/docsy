@@ -3,8 +3,8 @@
 @import "variables";
 @import "support/mixins";
 
-@import "/dependencies/assets/bootstrap/scss/_vendor";
-@import "/node_modules/bootstrap/scss/vendor";
+@import "../vendor/bootstrap/scss/bootstrap";
+@import "../vendor/bootstrap/scss/bootstrap";
 
 @import "../vendor/Font-Awesome/scss/fontawesome.scss";
 @import "../vendor/Font-Awesome/scss/solid.scss";
