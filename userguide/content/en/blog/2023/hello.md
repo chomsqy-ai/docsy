@@ -6,5 +6,5 @@ description: Welcome to the chomsQy AI blog!
 ---
 
 ## Hello
-Hello! Periodic updates, timelines, and thoughts will be posted here. Looking foorward to development!
+hello! Periodic updates, timelines, and thoughts will be posted here. Looking foorward to development!
 

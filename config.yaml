@@ -24,6 +24,8 @@ module:
   mounts:
     - source: assets
       target: assets
+    - source: userguide/content/en
+      target: content
     - source: node_modules/bootstrap
       target: assets/vendor/bootstrap
     - source: node_modules/@fortawesome/fontawesome-free
