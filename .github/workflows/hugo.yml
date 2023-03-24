@@ -54,9 +54,9 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
       - name: Unzip hugo.gz and use node hugo server
-        run:
-          "npm run serve" && 
-          \ "gunzip ../node_modules/hugo-extended/vendor/hugo.gz"
+        run: "gunzip ../node_modules/hugo-extended/vendor/hugo.gz"
+      - name: Use node hugo server
+        run: "npm run serve"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
