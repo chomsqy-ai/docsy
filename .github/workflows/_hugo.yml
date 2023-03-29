@@ -51,6 +51,10 @@ jobs:
       - name: change dir
         run: |
           cd userguide
+      - name: Checkout github repo (+ download lfs dependencies)
+        uses: actions/checkout@v2
+        with:
+          lfs: true
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -61,9 +65,6 @@ jobs:
          #hugo server --themesDir ../.. #\
             #--minify \
             #--baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: cd ..
-        run: |
-          cd ..
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
